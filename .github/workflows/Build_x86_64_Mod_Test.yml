@@ -83,7 +83,7 @@ jobs:
       working-directory: ./openwrt
       run: ./scripts/feeds update -a
 
-    #- name: SSH connection to Actions
+    # - name: SSH connection to Actions
     #  uses: P3TERX/debugger-action@master
 
     - name: Replacing applications
